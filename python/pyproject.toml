@@ -12,6 +12,8 @@ dependencies = [
     "numpy>=1.22",
     "pymc>=5.0",
     "xarray>=2023.1",
+    "streamlit>=1.0",
+    "matplotlib>=3.5",
 ]
 
 [build-system]

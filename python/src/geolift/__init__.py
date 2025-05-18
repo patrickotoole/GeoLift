@@ -4,6 +4,7 @@ from .data import GeoData
 from .market_selection import market_selection
 from .multicell import multicell_market_selection, multicell_power
 from .power import compute_power
+from . import streamlit_app
 
 __all__ = [
     "GeoData",
@@ -11,4 +12,5 @@ __all__ = [
     "multicell_market_selection",
     "multicell_power",
     "compute_power",
+    "streamlit_app",
 ]
