@@ -1,0 +1,10 @@
+graph TD
+    GD[GeoData] --> MS{market_selection}
+    GD --> CP1[compute_power]
+    MS --> MCM[multicell_market_selection]
+    CP1 --> MCM
+    MCM --> MCR[MultiCellResult]
+    MCR -->|treatment_map| MCP[multicell_power]
+    GD --> CP2[compute_power]
+    CP2 --> MCP
+    MCP --> MCR2[MultiCellResult with power]
