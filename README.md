@@ -43,3 +43,14 @@ To use Commuting Zones in GeoLift, please check the guide [here](https://faceboo
 
 ## License
 GeoLift is MIT licensed, as found in the LICENSE file.
+
+## Python Streamlit Demo
+
+An interactive example using the Python port is provided in `python/src/geolift/streamlit_app.py`.
+Run it with:
+
+```bash
+streamlit run python/src/geolift/streamlit_app.py
+```
+
+Sample data to try the application is available at `examples/example_data.csv`.
